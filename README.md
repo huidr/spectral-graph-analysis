@@ -1,6 +1,6 @@
 # Spectral Graph Analysis
 
-A work by [Ronald](https://github.com/huidr) & [Aditya](https://github.com/ThatFarziGamer).
+A work by [Ronald](https://github.com/huidr) & [Aditya](https://github.com/ThatFarziGamer)
 
 ## Abstract
 
