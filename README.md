@@ -12,4 +12,4 @@ mathematical (graph theoretical) models for biological
 networks, then study some mathematics of spectral graph
 theory and in particular, properties of the Laplacian.
 
-The presentation is [here](presentation.pdf)
+The presentation is [here](presentation.pdf).
