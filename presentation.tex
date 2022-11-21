@@ -53,10 +53,10 @@
 \begin{frame}
   \frametitle{Contents}
 \begin{enumerate}
-\item Preliminaries: Graph Theory \hfill [2 min]\pause
-\item Graph Theory Models in Biological Networks \hfill [4 min]\pause
-\item Spectral Graph Theory \hfill [8 min]\pause
-\item Two Biological Networks \hfill [4 min]\pause
+\item Preliminaries: Graph Theory \pause
+\item Graph Theory Models in Biological Networks \pause
+\item Spectral Graph Theory \pause
+\item Two Biological Networks
 \begin{itemize}
 \item Tissue-specific protein-function associations 
 \item Drug-target interaction network
@@ -197,7 +197,7 @@ where $n_k$ is the number of species whose longest path to $u$ has length $k$.
 \begin{enumerate}
 \item\label{item:15} Protein-protein interactions (PPI) 
 \item\label{item:16} Gene-protein interactions 
-\item\label{item:25} Regulatory networks 
+\item\label{item:25} Gene regulatory networks (GRN)
 \item\label{item:26} Signal transduction networks 
 \item\label{item:27} Metabolic and biochemical networks
 \end{enumerate}
@@ -412,7 +412,7 @@ The eigenvalues of $\overline{L}$ are $\{ 0, 1, 2 \}$ with corresponding eigenve
     \frametitle{Eigenvalues of the Laplacian}
 
 \begin{proposition}
-For any graph $G$ with normalized Laplacian $\overline{L}$, $0 \leq \overline{L} \leq 2\mathbb{I}$. Moreover, if $\lambda_1$ is the smallest eigenvalue of $\overline{L}$ then $\lambda_1 = 0$ with multiplicity equal to the number of connected components of $G$.
+For any graph $G$ with normalized Laplacian $\overline{L}$, if $\lambda_1$ is the smallest eigenvalue of $\overline{L}$ then $\lambda_1 = 0$ with multiplicity equal to the number of connected components of $G$.
 \end{proposition}
 \pause
 
@@ -432,18 +432,10 @@ For any graph $G$, the second smallest eigenvalue $\lambda_2(\overline{L})>0$ if
 \begin{itemize}
 \item\label{item:3} $\overline{L}$ is positive-semidefinite (that is, $\lambda_i \geq 0$). \pause 
 \item\label{item:28} Every row sum and column sum of $\overline{L}$ is zero. \pause
-\item\label{item:29} The second smallest nonzero eigenvalue of $\overline{L}$ (could be zero) is the algebraic connectivity (or Fiedler value) of $G$ and approximates the sparsest cut of a graph. 
+\item\label{item:29} The second smallest nonzero eigenvalue of $\overline{L}$ (could be zero) is the algebraic connectivity (or Fiedler value) of $G$. \pause
+\item The trace of the Laplacian matrix $\overline{L}$ is equal to $2m$ where $m$ is the number of edges of the considered graph.
 \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{The Laplacian}
-  \framesubtitle{Properties}
-  
-\begin{itemize}
-\item The trace of the Laplacian matrix $\overline{L}$ is equal to $2m$ where $m$ is the number of edges of the considered graph. 
-\end{itemize}
-\end{frame}
+\end{frame} 
 
 \begin{frame}
   \frametitle{Graph Connectivity}
